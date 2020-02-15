@@ -1,0 +1,22 @@
+{
+  "name": "npmcache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --async-stack-traces --require esm src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mqtt": "^3.0.0"
+  }
+}
